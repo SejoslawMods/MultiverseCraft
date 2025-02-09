@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "multiversecraft",
+  "version": "${version}",
+  "name": "MultiverseCraft",
+  "description": "",
+  "authors": ["Sejoslaw"],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/multiversecraft/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "com.github.sejoslaw.multiversecraft.client.MultiverseCraftClient"
+    ],
+    "main": [
+      "com.github.sejoslaw.multiversecraft.MultiverseCraft"
+    ]
+  },
+  "mixins": [
+    "multiversecraft.mixins.json",
+    {
+      "config": "multiversecraft.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
