@@ -3,9 +3,12 @@
   "id": "multiversecraft",
   "version": "${version}",
   "name": "MultiverseCraft",
-  "description": "",
+  "description": "Become the Master of the Multiverse.",
   "authors": ["Sejoslaw"],
-  "contact": {},
+  "contact": {
+    "description": "https://github.com/SejoslawMods/MultiverseCraft",
+    "sources": "https://github.com/SejoslawMods/MultiverseCraft"
+  },
   "license": "MIT",
   "icon": "assets/multiversecraft/icon.png",
   "environment": "*",
@@ -14,7 +17,8 @@
       "com.github.sejoslaw.multiversecraft.client.MultiverseCraftClient"
     ],
     "main": [
-      "com.github.sejoslaw.multiversecraft.MultiverseCraft"
+      "com.github.sejoslaw.multiversecraft.MultiverseCraft",
+      "com.github.sejoslaw.multiversecraft.commands.MultiverseCraftTeleportCommand"
     ]
   },
   "mixins": [
