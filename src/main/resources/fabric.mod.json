@@ -17,8 +17,7 @@
       "com.github.sejoslaw.multiversecraft.client.MultiverseCraftClient"
     ],
     "main": [
-      "com.github.sejoslaw.multiversecraft.MultiverseCraft",
-      "com.github.sejoslaw.multiversecraft.commands.MultiverseCraftTeleportCommand"
+      "com.github.sejoslaw.multiversecraft.MultiverseCraft"
     ]
   },
   "mixins": [
